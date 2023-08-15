@@ -11,7 +11,11 @@ applying to the underlying commodity, or security, or cash-settled quantity. Eve
 pricing is needed, like requesting the front two contracts, even without knowing their expiration dates, you 
 would need to know when to change the futures symbol to get the price quote, and what to change them to.
 
-Presently this only tracks six mostly financial futures contract series, which I have implemented for my work.
+Presently this only tracks six mostly financial futures contract series, which I have implemented for my work. 
+Providing the data to populate the FuturesPrice and FuturesContractSpecification items are the responsibility of 
+the calling application, although the product definitions are coded into overloads of the abstract FuturesSeries
+class, and are the main determinant of these features. The value proposition is that they are organized well.
+
 It should be straight forward to add to the product specifications for your own bespoke work, building on this
 as a starting point.  Or, you can reach out, and I'd be happy at my leisure to add them.  Or, to expedite any
 additional product specifications, I'd be happy to do it for a nominal fee, TBD.
