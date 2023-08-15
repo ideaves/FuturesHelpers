@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FuturesHelpers", "FuturesHelpers\FuturesHelpers.csproj", "{72E57686-C130-41B2-B0F2-E2BF7BCA0D22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestFuturesHelpers", "TestFuturesHelpers\TestFuturesHelpers.csproj", "{4F567CB3-650E-4B79-80CF-BB839E9DCDF4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72E57686-C130-41B2-B0F2-E2BF7BCA0D22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72E57686-C130-41B2-B0F2-E2BF7BCA0D22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72E57686-C130-41B2-B0F2-E2BF7BCA0D22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72E57686-C130-41B2-B0F2-E2BF7BCA0D22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F567CB3-650E-4B79-80CF-BB839E9DCDF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F567CB3-650E-4B79-80CF-BB839E9DCDF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F567CB3-650E-4B79-80CF-BB839E9DCDF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F567CB3-650E-4B79-80CF-BB839E9DCDF4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1A6E7F01-B83B-45EE-91C7-2F0CBA78DC8E}
+	EndGlobalSection
+EndGlobal

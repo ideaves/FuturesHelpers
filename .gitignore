@@ -1,0 +1,13 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/FuturesHelpers/bin
+/FuturesHelpers/obj
+/TestFuturesHelpers/bin
+/TestFuturesHelpers/obj
+/.vs/FuturesHelpers/FileContentIndex
+/.vs/FuturesHelpers/v17
+/.vs/ProjectSettings.json
+/.vs/slnx.sqlite
+/.vs/VSWorkspaceState.json
