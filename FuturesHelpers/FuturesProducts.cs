@@ -42,7 +42,7 @@ namespace FuturesHelpers
 	public class ES_FuturesSeries : FuturesSeries
 	{
 		DayOfWeek DayOfWeek = DayOfWeek.Wednesday;
-		int seqInMonth = 3;
+		int seqInMonth = 2;
 
 		public ES_FuturesSeries(string rootSymbol, DateTime startSeries, int nContracts) : base(rootSymbol)
 		{
@@ -59,7 +59,7 @@ namespace FuturesHelpers
 	public class NQ_FuturesSeries : FuturesSeries
 	{
 		DayOfWeek DayOfWeek = DayOfWeek.Wednesday;
-		int seqInMonth = 3;
+		int seqInMonth = 2;
 
 		public NQ_FuturesSeries(string rootSymbol, DateTime startSeries, int nContracts) : base(rootSymbol)
 		{
@@ -76,7 +76,7 @@ namespace FuturesHelpers
 	public class EC_FuturesSeries : FuturesSeries
 	{
 		DayOfWeek DayOfWeek = DayOfWeek.Wednesday;
-		int seqInMonth = 3;
+		int seqInMonth = 2;
 
 		public EC_FuturesSeries(string rootSymbol, DateTime startSeries, int nContracts) : base(rootSymbol)
 		{
@@ -93,7 +93,7 @@ namespace FuturesHelpers
 	public class US_FuturesSeries : FuturesSeries
 	{
 		DayOfWeek DayOfWeek = DayOfWeek.Wednesday;
-		int seqInMonth = 3;
+		int seqInMonth = 2;
 
 		public US_FuturesSeries(string rootSymbol, DateTime startSeries, int nContracts) : base(rootSymbol)
 		{
